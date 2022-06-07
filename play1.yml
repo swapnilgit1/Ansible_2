@@ -1,6 +1,6 @@
 ---
 - name : this is first play book
-  hosts: web
+  hosts: all
   tasks:
   - name : create dummy file
     command : touch /home/swapnil/c
