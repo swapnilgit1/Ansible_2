@@ -1,0 +1,7 @@
+---
+- name: module 3
+  hosts: all
+  tasks:
+  - 
+     name: no name
+     script: ./script

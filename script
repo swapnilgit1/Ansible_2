@@ -1,0 +1,4 @@
+#!/bin/bash
+pwd >> /home/swapnil/dir1/x2
+echo "first echo ">> /home/swapnil/dir1/x2
+echo "--------------------------------------">> /home/swapnil/dir1/x2
