@@ -1,0 +1,7 @@
+---
+- name: multi taks- multi play_ play 1
+  hosts: all
+  tasks:
+  - 
+     name: create dummy file
+     lineinfile: path=/home/swapnil/dir1/x1 line="ansible"
