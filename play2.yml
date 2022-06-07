@@ -1,0 +1,9 @@
+---
+- name :  multi task play book
+  hosts: all
+  tasks:
+  - name: creating file
+    command : touch  /home/swapnil/d
+
+  - name: creating directory  
+    command : mkdir /home/swapnil/dir1

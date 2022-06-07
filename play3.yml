@@ -1,0 +1,13 @@
+---
+- name : multi taks- multi play_ play 1
+  hosts: all
+  tasks :
+  - name: create file
+    command : touch /home/swapnil/dir1/x1
+
+
+- name : multi taks- multi play _ play 2
+  hosts: all
+  tasks :
+  - name: create file
+    command : touch /home/swapnil/dir1/x2
