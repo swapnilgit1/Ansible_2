@@ -1,0 +1,15 @@
+---
+- name: module 3
+  hosts: all
+  tasks:
+  - 
+     name: apache 2 isntall
+     apt: 
+        name : apache2
+        state: present
+
+  - 
+     name:  apache2 service
+     service:  
+         name: apache2
+         state: started
