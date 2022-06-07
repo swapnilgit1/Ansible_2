@@ -1,8 +1,2 @@
 [web]
 webserver_1 ansible_host=172.31.44.38
-
-[database]
-sqlserver_1 ansible_host=172.31.44.39
-
-[nfs]
-nfsserver_1 ansible_host=172.31.44.40
