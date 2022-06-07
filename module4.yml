@@ -1,6 +1,7 @@
 ---
 - name: module 3
   hosts: all
+  become: yes
   tasks:
   - 
      name: apache 2 install
