@@ -3,7 +3,7 @@
   hosts: all
   tasks:
   - 
-     name: apache 2 isntall
+     name: apache 2 install
      apt: 
         name : apache2
         state: present
