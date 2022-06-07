@@ -1,0 +1,8 @@
+---
+- name : multi taks- multi play_ play 1
+  hosts: all
+  tasks :
+  - name: create dummy file
+    copy: 
+    - src: play1.yml
+      dest: /home/swapnil/dir1
